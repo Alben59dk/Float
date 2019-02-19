@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+    background-color: #70a8c4;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,img {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section, footer {
+    color: #fff;
+}
+
+header {
+    padding: 50px 10px 70px 10px;
+    color: #fff;
+}
+
+header, section.clearing {
+    background-color: #fe4258;
+}
+
+section.float, section.passion{
+    background-color: #fff;
+}
+
+footer {
+    background-color: #984a59;
+}
+
+/* header */
+
+header h1 {
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+header p {
+    color: #984a59;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* section float */
+
+section.float {
+    padding:50px 0;
+}
+
+section.float article {
+    width: 300px;
+    background-color: #8ea6b4;
+    color: #fff;
+    padding: 30px;
+    float: left;
+    margin: 10px;
+}
+
+section.float article h2  {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+section.float article p {
+    text-align: left;
+}
+
+/* section clearing */ 
+
+section.clearing {
+    padding: 50px 10px 70px 10px;
+}
+
+section.clearing h2 {
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+section.clearing h3 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+section.clearing p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* section passion */
+
+section.passion {
+    padding: 50px 0;
+}
+
+section.passion article {
+    background-color: #ff8f56;
+    width: 220px;
+    padding: 25px 10px 15px 10px;
+}
+
+section.passion article h2 {
+    color: #fe4258;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+section.passion article {
+    width: 220px;
+    color: #fff;
+    padding: 30px;
+    float: left;
+    margin: 10px;
+}
+
+section.passion article a {
+    text-decoration: none;
+    background-color: #e7eff3;
+    color: #a46874;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    display: inline-block;
+}
+
+section.passion p {
+    border-top: solid 2px #e7eff3;
+    border-bottom: solid 2px #e7eff3;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+/* footer */
+
+footer h2 {
+    font-size: 48px;
+    font-weight: 300;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8f56;
+    padding: 0 20px 50px 20px;
+}
